@@ -2,6 +2,8 @@
 
 Adaptive Cognitive Tiering and Task-Comprehension Handshakes for Stateful Heterogeneous Artificial Intelligence Systems.
 
+CRA proposes treating machine cognitive capability as a dynamically scheduled resource rather than a static per-task assignment, on the argument that complex tasks exhibit non-stationary cognitive demand. It combines a Task-Comprehension Handshake (TCH) — a bounded pre-execution protocol that establishes an explicit task contract before work begins — with Adaptive Cognitive Tiering (ACT), a runtime controller that escalates or de-escalates the capability assigned to a persistent worker as complexity, uncertainty, criticality, and resource conditions evolve. An allocation is a (generator, verifier) pair rather than a single model, and CRA separates role, worker, and model identity so the models occupying a worker can change without losing task ownership or authority. No performance advantage is claimed before controlled experimentation.
+
 - **Author:** Samuel Lawson — Sovereign Systems Research Program, Dark Science Division
 - **License:** CC BY-NC-ND 4.0
 - **Status:** Architectural thesis and experimental prospectus. Empirical superiority not yet established; no performance advantage is claimed before controlled experimentation.
@@ -20,4 +22,4 @@ Adaptive Cognitive Tiering and Task-Comprehension Handshakes for Stateful Hetero
 
 ## Program context
 
-CRA is a component of the Sovereign Systems Research Program, not a standalone system. It is the **orchestration-policy layer**: it sits between the Sovereign Orchestration Workspace (governed execution substrate) and TCAIN (deep adversarial cognition, invoked as CRA's Tier 4), with ATG supervising project trajectory from above. Related program theses: SOVEREIGN, TCAIN, ATG, BioDigital Jazz.
+CRA is a component of the Sovereign Systems Research Program, not a standalone system. It is the **orchestration-policy layer**: it sits between the Sovereign Orchestration Workspace (governed execution substrate) and TCAIN (deep adversarial cognition, invoked as CRA's Tier 4), with ATG supervising project trajectory from above. Related program theses: SOVEREIGN, [TCAIN](https://github.com/darksciencedivision-ctrl/trajectory-constrained-adversarial-intelligence-nodes), [ATG](https://github.com/darksciencedivision-ctrl/adversarial-trajectory-graphs), BioDigital Jazz.

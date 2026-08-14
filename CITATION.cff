@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite the research baseline."
+title: "Cognitive Resource Allocation: Adaptive Cognitive Tiering and Task-Comprehension Handshakes for Stateful Heterogeneous Artificial Intelligence Systems"
+type: report
+authors:
+  - family-names: Lawson
+    given-names: Samuel
+version: "1.0"
+date-released: 2026-08-13
+license: CC-BY-NC-ND-4.0
+institution:
+  name: Dark Science Division
+abstract: >-
+  An architectural thesis and experimental prospectus proposing that
+  machine cognitive capability be treated as a dynamically scheduled
+  resource. CRA combines a Task-Comprehension Handshake (a bounded
+  pre-execution protocol establishing an explicit task contract) with
+  Adaptive Cognitive Tiering (a runtime controller that escalates or
+  de-escalates the capability assigned to a persistent worker), with
+  allocations expressed as generator-verifier pairs. No performance
+  advantage is claimed before controlled experimentation.
+keywords:
+  - cognitive resource allocation
+  - adaptive cognitive tiering
+  - task-comprehension handshake
+  - multi-model orchestration
+  - heterogeneous AI systems
+  - model routing
+  - cognitive scheduling
+  - human governance
